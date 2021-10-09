@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+.logo {
+    display: inline-block;
+    color: orange;
+    
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 60%;
+    list-style-type:none;
+    
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.team {
+    max-width: 50px;
+    max-height: 50px;
+}
