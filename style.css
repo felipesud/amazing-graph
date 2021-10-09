@@ -1,25 +1,81 @@
 body {
     font-family: sans-serif;
+    color: #766f68;
 }
 .logo {
     display: inline-block;
-    color: orange;
+    color: #d2872c;
     
 }
 
 .menu {
     display: inline-block;
-    margin-left: 60%;
+    margin-left: 70%;
     list-style-type:none;
+    color: #766f68;
     
 }
 
 .menu-item {
     display: inline-block;
     padding: 10px;
+    
+
 }
 
-.team {
-    max-width: 50px;
-    max-height: 50px;
+a {
+    text-decoration-color: #766f68;
+    text-decoration: none;
+    
 }
+a:link {
+    color: #766f68;
+}
+
+a:visited {
+    color: #766f68
+}
+
+a:focus {
+    color: #766f68
+}
+
+a:hover {
+    color: #766f68
+}
+
+a:active {
+    color: #766f68
+}
+
+
+.container {
+    display: inline-block;
+}
+.main {
+    max-width: 30%;
+}
+.image {
+    max-width: 60%;
+}
+img {
+   width: 1032px;
+    height: 624px;
+
+  
+
+}
+
+button {
+    background-color: #d2872c;
+    color: white;
+    width: 364px;
+    height: 90px;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+   
