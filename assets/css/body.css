@@ -1,0 +1,16 @@
+main .container {
+    display: flex;
+    flex-direction: row;
+}
+
+main h1, p, button {
+    display:inline-block;
+    flex-wrap: wrap;
+    
+}
+
+.team-img {
+    
+    display: flex;
+    justify-content: flex-end;
+}
