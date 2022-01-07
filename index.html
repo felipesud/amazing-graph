@@ -6,36 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Amazing Graph | Dev Challenge</title>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        
             <div class="logo">
                 <h3 class="logo">DevChallenge</h3>
             </div>
 
             <nav class="menu">
                 <ul>
-                    <li class="menu-item"><a href="#">Home</a></li>
-                    <li class="menu-item"><a href="#">Features</a></li>
-                    <li class="menu-item"><a href="#">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-        </div>
+            <div class="fas fa-bars"></div>
+        
     </header>
     <main class="container">
-      
-            <h1>Create amazing graphics</h1>
+        <div class="description">
+           <h1>Create amazing graphics</h1>
             <p>Colaborate and create beautiful <br>graphics with your team
             </p>
             <button class="button">Start now</button>
+        </div>
+        <div class="image">
 
         <img class="team-img" src="././assets/team.jpg" width="800px"></div>
+    </div>
     </main>
-
-
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script>
+  
+        $(document).ready(function(){
+        
+          $('.fa-bars').click(function(){
+            $(this).toggleClass('fa-times');
+            $('.menu').toggleClass('nav-toggle');
+          });
+      
+          $('.navbar').click(function(){
+            $(this).removeClass('nav-toggle');
+            $('.fa-bars').removeClass('fa-times');
+          });
+      
+        });
+        
+        </script>
 </body>
 
 </html>
