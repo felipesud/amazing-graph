@@ -1,0 +1,15 @@
+body .container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+    
+}
+
+.container .description {
+    display: grid;
+}
+
+.container .image {
+    display: grid;
+    max-width: 100%;
+}
